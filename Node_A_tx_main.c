@@ -18,7 +18,7 @@ int main(void)
 	m1.B_bytes = 0x0;
 	m2.id = 0x1a3;
 	m2.dlc = 4;
-	m2.rtr = 0;
+	m2.rtr = 1;
 	while(1)
 	{
 		uart0_string_tx("Node_A transmit the data frame to Node_B");
